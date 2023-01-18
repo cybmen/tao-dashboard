@@ -52,16 +52,15 @@ p {
 .navbar {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 80px;
-    width: 100%;
+    width: 90%;
     position: fixed;
     top: 0;
     z-index: 999;
     background-color: #1A2037;
     max-width: 1440px;
-    margin: 0 auto;
 
 }
 
@@ -101,12 +100,6 @@ p {
 
 input[type="checkbox"i] {
     display: none;
-}
-
-.log-out {
-    position: absolute;
-    top: 6px;
-    right: 100px;
 }
 
 .menu-items .active {

@@ -20,7 +20,7 @@
   
     .navbar {
       width: 100%;
-      background-color: #050505;
+      background-color: #1A2037;
       height: 90px;
     }
   
@@ -116,7 +116,7 @@
       padding-left: 0px;
       transition: transform 0.5s ease-in-out;
       opacity: 100;
-      background-color: #050505;
+      background-color: #1A2037;
     }
   
     .navbar .menu-items li {
@@ -160,5 +160,11 @@
     input[type="checkbox"i] {
       display: block;
     }
+
+
+    .modal__text {
+        padding: 5px;
+    }
+
 
 }
